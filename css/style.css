@@ -28,10 +28,6 @@ main {
     padding: 2px 3%;
 }
 
-footer {
-    padding: 5%;
-}
-
 .flex {
     display: flex;
 }
@@ -51,8 +47,10 @@ footer {
 header {
     margin-bottom: 6px;
 }
-
-header img {
+.logo-mobile {
+    display: none;
+}
+.logo-desc {
     width: 123px;
     height: 76px;
     margin-top: 20px;
@@ -66,23 +64,6 @@ header img {
 
 .sous-titre {
     font-family: "gros";
-}
-
-h2 {
-    font-family: "gros";
-}
-
-.epais {
-    font-family: "epais";
-}
-
-.font-filter {
-    font-family: "gros";
-    font-size: 20px;
-}
-
-.logo-mobile {
-    display: none;
 }
 
 .ancres {
@@ -144,6 +125,10 @@ input {
     font-size: 20px;
 }
 
+.font-filter {
+    font-family: "gros";
+    font-size: 20px;
+}
 .w-filtres {
     display: flex;
     margin: 25px 0;
@@ -198,20 +183,12 @@ input {
     border-radius: 50px;
     display: block;
     height: 50px;
-    padding-left: 46px;
+    padding:12px 14px 0 58px;
 }
 
-.filtres-l:hover {
+.filtres-l:hover{
     background-color: #0065fc;
-}
-
-span {
-    padding: 0 15px
-}
-
-.filter-nav {
-    margin-top: 25px;
-    max-width: 885px;
+    color: #f2f2f2;
 }
 
 .info {
@@ -277,18 +254,21 @@ span {
     background-color: #DEEBFF;
 }
 
-.wrapper-cards strong,
+/*.wrapper-cards strong,
 .w-cards-2 strong {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: bold;
 }
-
+*/
 .card-1 img {
     width: 100%;
     height: 138px;
     border-radius: 15px 15px 0 0;
 }
 
+.affichez-plus {
+    font-size: 22px;
+}
 .section-2 {
     width: 35%;
     background-color: #f2f2f2;
@@ -312,7 +292,7 @@ span {
 
 .card-2 {
     width: 100%;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
 .link-card-2 {
@@ -336,6 +316,7 @@ span {
     width: 35%;
     border-radius: 15px 0 0 15px;
     height: 150px;
+    width: 95px;
 }
 
 .info-2 {
@@ -350,11 +331,7 @@ span {
     display: flex;
 }
 
-.plus {
-    font-size: 22px;
-}
-
-#activités {
+.activités {
     margin: 75px 0 31px 0;
 }
 
@@ -420,6 +397,7 @@ footer {
     width: 100%;
     background-color: #f2f2f2;
     margin-top: 70px;
+    padding: 3%;
 }
 
 .footer-listes {
@@ -489,7 +467,7 @@ footer {
         padding: 0;
     }
 
-    .top-main {
+    .top-main-mobile {
         padding: 0 5%;
     }
 
