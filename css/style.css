@@ -157,7 +157,7 @@ input {
     justify-content: space-between;
 }
 
-.strong {
+.relative {
     font-weight: bold;
     position: relative;
 }
