@@ -48,6 +48,9 @@ header {
     margin-top: 20px;
     margin-left: 50px;
 }
+.desktop-nav{
+    margin-right: 50px;
+}
 
 .titre {
     font-weight: 600;
@@ -411,6 +414,9 @@ footer {
 
 
 @media screen and (max-width:992px) {
+    .desktop-nav{
+        margin-right: 0;
+    }
     .w-filtres {
         flex-flow: wrap;
         justify-content: space-around
@@ -469,7 +475,9 @@ footer {
     main {
         padding: 0;
     }
-
+    .desktop-nav{
+        margin-right: 0;
+    }
     .top-main-mobile {
         padding: 0 5%;
     }
