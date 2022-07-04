@@ -229,7 +229,7 @@ input {
 
 }
 
-.card-1 p,
+.card-1 h4, .card-1 p,
 .card-1 .w-stars {
     margin: 0 10px;
 }
@@ -240,7 +240,7 @@ input {
     padding: 2%;
     width: 100%;
     background-color: white;
-    line-height: 20px;
+    line-height: 25px;
     box-shadow: 4px 4px 8px #E5E5E5, -4px -4px 8px #E5E5E5;
 }
 
@@ -252,6 +252,7 @@ input {
     width: 100%;
     height: 138px;
     display: block;
+    margin-bottom: 10px;
 }
 
 .card-1 img {
@@ -330,9 +331,11 @@ input {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    line-height: normal;
-    padding: 5%;
+    padding: 4% 5%;
     
+}
+.w-text-2 .noms{
+    margin-bottom: 10px;
 }
 
 .w-stars ul {
@@ -360,18 +363,29 @@ input {
     width: 23%;
 }
 
+.block-s h4{
+    padding: 5%;
+}
+
 .block-b, .block-s{
     margin-right: 2.7%;
+}
+
+.block-b h4{
+    padding: 5%;
 }
 .bigger{
     height: 55%;
 }
-.bigger figcaption{
-    padding-top: 25px;
+.bigger h4{
+    padding: 7% 0 0 5%;
 }
 
 .smaller{
     height: 35%;
+}
+.smaller h4{
+    padding: 3%;
 }
 
 .section-3 a {
@@ -401,12 +415,6 @@ input {
     height: 100%;
     display: block;
     border-radius: 25px 25px 0 0;
-}
-
-
-figcaption {
-    line-height: normal;
-    padding: 15px;
 }
 
 footer {
